@@ -4,6 +4,7 @@ int main()
 int y,x;
 scanf(&d, x);
 y=5*x*x;
-printf("X=%d",x);
+y=y*2;
+printf("y=%d",y);
 return(0);
 }
